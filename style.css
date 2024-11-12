@@ -1,0 +1,76 @@
+/* Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+
+  body {
+    background-color: #1f219e;
+    color: #000000;
+  }
+
+  /* Cabeçalho */
+  header {
+    background-color: #4b4b79;
+    color: rgb(0, 0, 0);
+    padding: 15px 20px;
+    text-align: center;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  nav a {
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  /* Seções */
+  .content {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(170, 157, 240);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    margin-bottom: 15px;
+  }
+
+  /* Grid de Projetos */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+
+  .projeto img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .projeto h3 {
+    margin-top: 10px;
+  }
+
+  /* Histórias */
+  .historia {
+    margin-bottom: 15px;
+  }
+
+  /* Rodapé */
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4b4b79;
+    color: rgb(0, 0, 0);
+  }
